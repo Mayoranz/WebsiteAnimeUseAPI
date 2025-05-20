@@ -1,0 +1,59 @@
+       body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .controls {
+            margin: 20px 0;
+            text-align: center;
+        }
+        select {
+            padding: 8px;
+            font-size: 16px;
+        }
+        .anime-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .anime-card {
+            border: 1px solid snow;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .anime-poster {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .anime-info {
+            padding: 10px;
+        }
+        .anime-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .anime-status {
+            padding: 3px 6px;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+        .status-current {
+            background-color: greenyellow;
+            color: white;
+        }
+        .status-finished {
+            background-color: red;
+            color: white;
+        }
+        .status-upcoming {
+            background-color: skyblue;
+            color: white;
+        }

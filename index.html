@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Status Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Anime Status Viewer</h1>
+    
+    <div class="controls">
+        <select id="status-filter">
+            <option value="all">All Statuses</option>
+            <option value="current">On going</option>
+            <option value="finished">Finished</option>
+            <option value="upcoming">Upcoming</option>
+        </select>
+    </div>
+    
+    <div id="anime-container" class="anime-grid">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
